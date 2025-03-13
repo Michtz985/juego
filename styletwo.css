@@ -1,0 +1,71 @@
+  body {
+        background-image: url(imagenes/fondo.jpg); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+        height: 200vh;
+               
+}
+h1 {
+    background-color: blueviolet;
+    display: inline-block;
+    margin: 50px;
+    font-family: cursive
+    
+}
+
+h2{ 
+
+    background-color: blueviolet;
+    display: inline-block;
+    margin: 50px;
+    font-family: cursive
+    
+}
+
+.text {
+    text-align: center;
+    animation: bailar 2s infinite;
+}
+
+@keyframes bailar {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px); /* Sube 20px */
+    }
+    100% {
+        transform: translateY(0);
+    
+}
+ }
+.cora {
+
+    display: flex;
+    justify-content: center; /* Centra la imagen */
+    align-items: center;
+    height: auto; /* Ajusta según el contenido */
+   
+
+}
+
+.pro {
+    border-radius: 20%;
+    width: 300px;
+    height: auto;
+    animation: bailar 2s infinite;
+}
+
+@keyframes bailar {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px); /* Sube 20px */
+    }
+    100% {
+        transform: translateY(0);
+    }
+
+}
